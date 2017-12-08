@@ -90,4 +90,3 @@ function onListening() {
   debug('Listening on ' + bind);
   fs.openSync('/tmp/app-initialized', 'w');
 }
-/tmp/nginx.socket
